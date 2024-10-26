@@ -1,0 +1,29 @@
+# Ignorowanie katalogów CMake i CLion
+cmake-build-*
+.idea/
+
+
+*.iml
+*.cmake
+CMakeLists.txt.user
+*.DS_Store
+*.o
+*.obj
+
+# Ignorowanie plików binarnych i wynikowych
+*.exe
+*.out
+*.a
+*.so
+*.dll
+*.dylib
+
+# Ignorowanie katalogów tymczasowych
+tmp/
+logs/
+build/
+cmake-build-debug/
+
+# Dozwolone tylko pliki źródłowe i nagłówkowe
+!*.cpp
+!*.h
